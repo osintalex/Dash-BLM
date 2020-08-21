@@ -1,0 +1,349 @@
+Geography_name,Value
+Adur,0.05
+Allerdale,0.0
+Amber Valley,0.05
+Arun,0.11
+Ashfield,0.11
+Ashford,0.26
+Aylesbury Vale,0.69
+Babergh,0.04
+Barking and Dagenham,6.92
+Barnet,5.45
+Barnsley,0.23
+Barrow-in-Furness,0.01
+Basildon,0.9
+Basingstoke and Deane,0.37
+Bassetlaw,0.11
+Bath and North East Somerset,0.29000000000000004
+Bedford,1.31
+Bexley,3.5200000000000005
+Birmingham,22.89
+Blaby,0.21000000000000002
+Blackburn with Darwen,0.18
+Blackpool,0.08
+Blaenau Gwent,0.03
+Bolsover,0.05
+Bolton,0.9099999999999999
+Boston,0.060000000000000005
+Bournemouth,0.32999999999999996
+Bracknell Forest,0.42000000000000004
+Bradford,1.85
+Braintree,0.18
+Breckland,0.15
+Brent,13.34
+Brentwood,0.18
+Bridgend,0.07
+Brighton and Hove,0.8099999999999999
+"Bristol, City of",6.2
+Broadland,0.06
+Bromley,3.91
+Bromsgrove,0.09000000000000001
+Broxbourne,0.8
+Broxtowe,0.2
+Burnley,0.05
+Bury,0.38
+Caerphilly,0.04
+Calderdale,0.19
+Cambridge,0.41000000000000003
+Camden,3.99
+Cannock Chase,0.06
+Canterbury,0.37
+Cardiff,1.7799999999999998
+Carlisle,0.03
+Carmarthenshire,0.060000000000000005
+Castle Point,0.15
+Central Bedfordshire,0.73
+Ceredigion,0.05
+Charnwood,0.26
+Chelmsford,0.39
+Cheltenham,0.13
+Cherwell,0.43
+Cheshire East,0.32
+Cheshire West and Chester,0.18
+Chesterfield,0.16
+Chichester,0.1
+Chiltern,0.12000000000000001
+Chorley,0.09000000000000001
+Christchurch,0.01
+City of London,0.05
+Colchester,0.5
+Conwy,0.04
+Copeland,0.01
+Corby,0.19
+Cornwall,0.17
+Cotswold,0.05
+County Durham,0.15
+Coventry,3.38
+Craven,0.0
+Crawley,0.79
+Croydon,16.75
+Dacorum,0.5800000000000001
+Darlington,0.08
+Dartford,0.6500000000000001
+Daventry,0.11
+Denbighshire,0.04
+Derby,1.5499999999999998
+Derbyshire Dales,0.02
+Doncaster,0.48
+Dover,0.07
+Dudley,1.06
+Ealing,8.22
+East Cambridgeshire,0.12
+East Devon,0.04
+East Dorset,0.03
+East Hampshire,0.09
+East Hertfordshire,0.19
+East Lindsey,0.05
+East Northamptonshire,0.13
+East Riding of Yorkshire,0.12000000000000001
+East Staffordshire,0.22999999999999998
+Eastbourne,0.16
+Eastleigh,0.11
+Eden,0.0
+Elmbridge,0.2
+Enfield,11.54
+Epping Forest,0.5
+Epsom and Ewell,0.23
+Erewash,0.13
+Exeter,0.13
+Fareham,0.07
+Fenland,0.11
+Flintshire,0.03
+Folkestone and Hythe,0.09000000000000001
+Forest Heath,0.41000000000000003
+Forest of Dean,0.04
+Fylde,0.05
+Gateshead,0.2
+Gedling,0.38
+Gloucester,0.8
+Gosport,0.12
+Gravesham,0.52
+Great Yarmouth,0.08
+Greenwich,9.45
+Guildford,0.32999999999999996
+Gwynedd,0.06
+Hackney,12.560000000000002
+Halton,0.05
+Hambleton,0.05
+Hammersmith and Fulham,4.79
+Harborough,0.07
+Haringey,10.32
+Harlow,0.5900000000000001
+Harrogate,0.27
+Harrow,4.63
+Hart,0.11
+Hartlepool,0.03
+Hastings,0.21
+Havant,0.09000000000000001
+Havering,2.24
+"Herefordshire, County of",0.08
+Hertsmere,0.74
+High Peak,0.04
+Hillingdon,4.49
+Hinckley and Bosworth,0.05
+Horsham,0.12000000000000001
+Hounslow,3.5
+Huntingdonshire,0.38
+Hyndburn,0.03
+Ipswich,0.7100000000000001
+Isle of Anglesey,0.01
+Isle of Wight,0.07
+Isles of Scilly,0.0
+Islington,6.07
+Kensington and Chelsea,2.21
+Kettering,0.19
+King's Lynn and West Norfolk,0.12
+"Kingston upon Hull, City of",0.55
+Kingston upon Thames,0.78
+Kirklees,1.77
+Knowsley,0.11
+Lambeth,17.79
+Lancaster,0.12000000000000001
+Leeds,5.55
+Leicester,4.35
+Lewes,0.09000000000000001
+Lewisham,16.75
+Lichfield,0.11
+Lincoln,0.16
+Liverpool,2.61
+Luton,4.28
+Maidstone,0.28
+Maldon,0.04
+Malvern Hills,0.04
+Manchester,9.450000000000001
+Mansfield,0.09000000000000001
+Medway,1.2599999999999998
+Melton,0.03
+Mendip,0.04
+Merthyr Tydfil,0.03
+Merton,4.3500000000000005
+Mid Devon,0.02
+Mid Suffolk,0.09000000000000001
+Mid Sussex,0.16
+Middlesbrough,0.31999999999999995
+Milton Keynes,3.21
+Mole Valley,0.08
+Monmouthshire,0.04
+Neath Port Talbot,0.07
+New Forest,0.13
+Newark and Sherwood,0.12000000000000001
+Newcastle upon Tyne,0.89
+Newcastle-under-Lyme,0.16
+Newham,12.22
+Newport,0.51
+North Devon,0.04
+North Dorset,0.04
+North East Derbyshire,0.05
+North East Lincolnshire,0.07
+North Hertfordshire,0.55
+North Kesteven,0.05
+North Lincolnshire,0.1
+North Norfolk,0.04
+North Somerset,0.12000000000000001
+North Tyneside,0.14
+North Warwickshire,0.04
+North West Leicestershire,0.04
+Northampton,2.1999999999999997
+Northumberland,0.07
+Norwich,0.39
+Nottingham,4.8100000000000005
+Nuneaton and Bedworth,0.22999999999999998
+Oadby and Wigston,0.14
+Oldham,0.5700000000000001
+Oxford,1.4
+Pembrokeshire,0.04
+Pendle,0.03
+Peterborough,0.85
+Plymouth,0.33999999999999997
+Poole,0.11
+Portsmouth,0.69
+Powys,0.03
+Preston,0.36
+Purbeck,0.0
+Reading,2.12
+Redbridge,5.32
+Redcar and Cleveland,0.03
+Redditch,0.21000000000000002
+Reigate and Banstead,0.44
+Rhondda Cynon Taff,0.22999999999999998
+Ribble Valley,0.02
+Richmond upon Thames,0.5800000000000001
+Richmondshire,0.12
+Rochdale,0.55
+Rochford,0.1
+Rossendale,0.02
+Rother,0.07
+Rotherham,0.39
+Rugby,0.42
+Runnymede,0.16999999999999998
+Rushcliffe,0.14
+Rushmoor,0.38
+Rutland,0.05
+Ryedale,0.01
+Salford,1.19
+Sandwell,4.25
+Scarborough,0.04
+Sedgemoor,0.03
+Sefton,0.17
+Selby,0.04
+Sevenoaks,0.16999999999999998
+Sheffield,4.26
+Shropshire,0.13
+Slough,2.45
+Solihull,0.7400000000000001
+South Bucks,0.16
+South Cambridgeshire,0.27
+South Derbyshire,0.09000000000000001
+South Gloucestershire,0.47
+South Hams,0.03
+South Holland,0.05
+South Kesteven,0.1
+South Lakeland,0.03
+South Norfolk,0.08
+South Northamptonshire,0.09000000000000001
+South Oxfordshire,0.15
+South Ribble,0.060000000000000005
+South Somerset,0.07
+South Staffordshire,0.12
+South Tyneside,0.08
+Southampton,0.9600000000000001
+Southend-on-Sea,0.71
+Southwark,16.29
+Spelthorne,0.31
+St Albans,0.5
+St Edmundsbury,0.21000000000000002
+St. Helens,0.05
+Stafford,0.25
+Staffordshire Moorlands,0.03
+Stevenage,0.54
+Stockport,0.41000000000000003
+Stockton-on-Tees,0.19999999999999998
+Stoke-on-Trent,0.73
+Stratford-on-Avon,0.05
+Stroud,0.05
+Suffolk Coastal,0.12
+Sunderland,0.24000000000000002
+Surrey Heath,0.16999999999999998
+Sutton,1.82
+Swale,0.26
+Swansea,0.35000000000000003
+Swindon,0.5800000000000001
+Tameside,0.36
+Tamworth,0.09000000000000001
+Tandridge,0.19
+Taunton Deane,0.06
+Teignbridge,0.03
+Telford and Wrekin,0.35
+Tendring,0.08
+Test Valley,0.12
+Tewkesbury,0.05
+Thanet,0.18
+Three Rivers,0.32999999999999996
+Thurrock,2.3
+Tonbridge and Malling,0.08
+Torbay,0.04
+Torfaen,0.03
+Torridge,0.01
+Tower Hamlets,4.21
+Trafford,1.5
+Tunbridge Wells,0.12
+Uttlesford,0.09000000000000001
+Vale of Glamorgan,0.12
+Vale of White Horse,0.25
+Wakefield,0.46
+Walsall,1.5
+Waltham Forest,10.01
+Wandsworth,7.34
+Warrington,0.15
+Warwick,0.21000000000000002
+Watford,1.05
+Waveney,0.08
+Waverley,0.09999999999999999
+Wealden,0.07
+Wellingborough,0.61
+Welwyn Hatfield,0.91
+West Berkshire,0.29000000000000004
+West Devon,0.0
+West Dorset,0.04
+West Lancashire,0.03
+West Lindsey,0.04
+West Oxfordshire,0.09000000000000001
+West Somerset,0.0
+Westminster,3.58
+Weymouth and Portland,0.08
+Wigan,0.31000000000000005
+Wiltshire,0.7300000000000001
+Winchester,0.09000000000000001
+Windsor and Maidenhead,0.35
+Wirral,0.15000000000000002
+Woking,0.26
+Wokingham,0.41
+Wolverhampton,4.2700000000000005
+Worcester,0.1
+Worthing,0.16999999999999998
+Wrexham,0.1
+Wychavon,0.05
+Wycombe,1.36
+Wyre,0.04
+Wyre Forest,0.05
+York,0.21
