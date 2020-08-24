@@ -7,9 +7,9 @@
 >
 ![Arrests Map](.img/Arrests.png)
 
-![Stop Search Map](.img/'Searches Map'.png)
+![Stop Search Map](.img/SearchesMap.png)
 
-![Sentence Lengths](.img/'Sentence Lengths'.png)
+![Sentence Lengths](.img/SentenceLengths.png)
 
 ## Table of contents
 * [General info](#general-info)
