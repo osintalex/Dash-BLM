@@ -1,5 +1,5 @@
 import requests
-import os
+import pathlib
 import glob
 import json
 import logging
@@ -112,7 +112,7 @@ if __name__ == "__main__":
         format="%(asctime)s-%(message)s",
         level=logging.DEBUG,
     )
-    path = os.getcwd() + "/data/"
+    path = str(pathlib.Path.cwd()) + "/data/"
 
     with open(path + "formatted_UK_LAD.geojson", "r") as original_file:
         geojson = json.load(original_file)
@@ -240,7 +240,7 @@ if __name__ == "__main__":
 
         target_year = input("Which year are you merging different json data for?")
 
-        root_path = os.getcwd()
+        root_path = str(pathlib.Path.cwd())
         json_files = glob.glob(root_path + "/*.json")
 
         stopsearchdata = {"results": {}}

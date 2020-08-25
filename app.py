@@ -117,11 +117,11 @@ app.layout = html.Div(
                 However the head of the commission has previously doubted the existence of institutional racism in the 
                 UK.
                 
-                This app tries to use to data to show how mistaken this is.
+                This app tries to use to data to show how mistaken this is. You can view the source code [here](https://github.com/osintalex/Dash-BLM).
                 
                 *Sources*:
                 
-                [Police Data](https://data.police.uk/.)
+                [Police Data](https://data.police.uk)
 
                 [UK Government Ethnicity Facts and Figures](https://www.ethnicity-facts-figures.service.gov.uk)
                 
@@ -206,7 +206,7 @@ app.layout = html.Div(
                             [
                                 dcc.Markdown(
                                     """In 2019 black people were **9.5** times more likely to be stopped and searched 
-        than white people  
+        than white people, asian and mixedpeople were 2.75 times more likely.  
         """,
                                     style={
                                         "backgroundColor": "#B5D7E7",

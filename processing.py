@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 import json
-import os
 from dataclasses import dataclass
+import pathlib
 
 
 @dataclass
@@ -31,9 +31,11 @@ class DashBLM:
 
         # Import arrests data
 
-        path = os.getcwd()
+        path = str(pathlib.Path.cwd())
         df = pd.read_excel(
-            path + "/data/" + cls.arrests_filename, sheet_name=3, engine="odf"
+            path + "/data/" + cls.arrests_filename,
+            sheet_name=3,
+            engine="odf",  # this sheet is for overall arrests
         )
 
         columns = ["Year"]
@@ -59,9 +61,7 @@ class DashBLM:
         rows = [[i for i in row] for row in df_clean.itertuples()]
         rows_flat = [y for x in rows for y in x]
 
-        arrests = []
-        for x in rows:
-            arrests.append(x[2:6])
+        arrests = [(x[2:6]) for x in rows]
         arrests = [y for x in arrests for y in x]
 
         dff = pd.DataFrame(
@@ -75,9 +75,13 @@ class DashBLM:
 
         # Import population data
 
-        path = os.getcwd()
-        df_pop = pd.read_excel(path + "/data/" + cls.pop_filename, sheet_name=3)
-        df_pop = df_pop.iloc[4:17, :2]
+        path = str(pathlib.Path.cwd())
+        df_pop = pd.read_excel(
+            path + "/data/" + cls.pop_filename, sheet_name=3
+        )  # this gets population estimates sheet
+        df_pop = df_pop.iloc[
+            4:17, :2
+        ]  # filters out years for which there are no arrests data
         df_pop.columns = ["Year", "Population"]
         df_pop = df_pop.astype({"Year": "str", "Population": "int"})
 
@@ -96,11 +100,9 @@ class DashBLM:
             "White": 0.86,
         }
         white_arrests = arrests[0::4]
-        counter = -1
         arrests_proportions = []
 
-        for x in white_arrests:
-            counter += 1
+        for counter, x in enumerate(white_arrests):
             whiteness = x / df_pop["Population"].iloc[counter]
             black_proportion = whiteness * ethnic_breakdown["Black"]
             asian_proportion = whiteness * ethnic_breakdown["Asian"]
@@ -162,6 +164,7 @@ class DashBLM:
         counter = -1
 
         for index, group in dff.groupby(np.arange(len(dff)) // 4):
+            counter += 1
 
             asian_per_1k = round(
                 (
@@ -230,7 +233,7 @@ class DashBLM:
 
         # Get geojson
 
-        path = os.getcwd()
+        path = str(pathlib.Path.cwd())
         with open(path + "/data/" + cls.geojson_filename, "r") as f:
             geojson = json.load(f)
 
@@ -241,7 +244,9 @@ class DashBLM:
             usecols=["Measure", "Geography_name", "Ethnicity", "Value"],
         )
         df = df.astype({"Measure": "category", "Ethnicity": "category"})
-        df = df.loc[df["Measure"] == "% of national ethnic population in this LA area"]
+        df = df.loc[
+            df["Measure"] == "% of national ethnic population in this LA area"
+        ]  # other rows irrelevant
         df = df.loc[
             df["Ethnicity"].isin(
                 ["Black", "Black African", "Black Caribbean", "Black Other"]
@@ -391,7 +396,7 @@ class DashBLM:
         Writes out sunburst dataframe to csv.
         """
 
-        path = os.getcwd() + "/data/"
+        path = str(pathlib.Path.cwd()) + "/data/"
 
         # Read in data from all three datasets
 
@@ -482,7 +487,7 @@ class DashBLM:
 if __name__ == "__main__":
 
     DashBLM = DashBLM()
-    # DashBLM.make_arrests_dataframe()
-    # DashBLM.make_choropleth_inputs()
-    # DashBLM.make_scattermapbox_inputs()
+    DashBLM.make_arrests_dataframe()
+    DashBLM.make_choropleth_inputs()
+    DashBLM.make_scattermapbox_inputs()
     DashBLM.make_sunburst_input()

@@ -1,6 +1,6 @@
 import pandas as pd
 import json
-import os
+import pathlib
 
 
 def format_geojson():
@@ -27,7 +27,7 @@ def format_geojson():
 
     # Now get a list of all the local authorities we have data for
 
-    path = os.getcwd()
+    path = str(pathlib.Path.cwd())
     df = pd.read_csv(
         path + "/data/" + "ethnic-population-by-local-authority.csv",
         usecols=["Measure", "Geography_name", "Ethnicity", "Value"],
