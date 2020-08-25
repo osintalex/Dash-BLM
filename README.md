@@ -3,7 +3,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 # Black Lives Matter - Web App
 > An interactive data dashboard examining structural racism in Britain. See it in action at 
->[blmjusticeapp.co.uk](https://urlgoeshere.com).
+>[blmjusticeapp.co.uk](https://www.blmjusticeapp.co.uk).
 >
 ![Arrests Map](.img/Arrests.png)
 
