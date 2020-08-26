@@ -206,7 +206,7 @@ app.layout = html.Div(
                             [
                                 dcc.Markdown(
                                     """In 2019 black people were **9.5** times more likely to be stopped and searched 
-        than white people, asian and mixedpeople were 2.75 times more likely.  
+        than white people, asian and mixed people were 2.75 times more likely.  
         """,
                                     style={
                                         "backgroundColor": "#B5D7E7",
