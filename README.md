@@ -14,7 +14,6 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [Features](#features)
 * [Data Sources](#sources)
 * [Inspiration](#inspiration)
