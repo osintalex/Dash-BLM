@@ -14,6 +14,8 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Access UK Police Data](#access-uk-police-data)
+* [Code Examples](#code-examples)
 * [Features](#features)
 * [Data Sources](#sources)
 * [Inspiration](#inspiration)
